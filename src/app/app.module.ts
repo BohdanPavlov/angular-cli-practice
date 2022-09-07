@@ -5,13 +5,11 @@ import {ProductsModule} from "./features/products/products.module";
 import {CartModule} from "./features/cart/cart.module";
 
 import { AppComponent } from './app.component';
-import { ComponentsDirective } from './components.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentsDirective,
   ],
   imports: [
     BrowserModule,
